@@ -1,4 +1,4 @@
-# Strange issue with go + CGo + freebsd extensioned file
+# Strange issue with go + CGo + freebsd file
 
 The go compiler doesn't seem to properly compile a file with the `freebsd`
 suffix if it contains `import "C"`.
